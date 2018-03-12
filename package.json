@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pm": "pm2 start build/app.js --watch",
-    "dev": "node build/app.js"
+    "dev": "node build/app.js",
+    "wpk":"webpack --w"
   },
   "keywords": [
     "js",
